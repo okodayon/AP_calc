@@ -1,0 +1,34 @@
+/*文字コードの指定*/
+@charset"utf-8";
+
+/*ウインドウ背景色の設定*/
+body
+{
+    background-color: #fbf9cc;
+    text-align: center;
+    font-size: 250%;
+}
+
+/*リザルト領域の設定*/
+body #result
+{
+    background-color: rgba(0, 247, 255, 0.664);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: 240px;
+}
+
+/*ボタンの設定*/
+.btn
+{
+    text-align: center;
+    color: #6fbb9a;
+    background-color: #fbf9cc;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 2px;
+    padding: 15px;
+    width: 50px;
+}
