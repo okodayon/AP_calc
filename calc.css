@@ -32,3 +32,30 @@ body #result
     padding: 15px;
     width: 50px;
 }
+
+/*クリアボタンの設定*/
+.clear
+{
+    text-align: center;
+    color: #6fbb9a;
+    background-color: #fbf9cc;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 50px;
+    padding: 15px;
+    width: 254px;
+}
+
+/*ボタンにマウスが乗った時*/
+.btn:hover
+{
+    opacity: 0.5;
+}
+
+/*ACボタンにマウスが乗ったとき*/
+.clear:hover
+{
+    color: rgb(153, 153, 153);
+    background-color: rgb(204, 38, 38);
+}
